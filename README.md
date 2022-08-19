@@ -1,1 +1,1 @@
-# python-advanced
+# Experimenting with advanced Python concepts
