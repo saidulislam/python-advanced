@@ -1,1 +1,9 @@
-
+This code works in much the same way as Linux’s tail program does. 
+Here we pass in a filename to our script along with the n number of 
+lines we want to return. The deque is bounded to whatever number we 
+pass in as n. This means that once the deque is full, when new lines 
+are read in and added to the deque, older lines are popped off the 
+other end and discarded. We also wrapped the file opening with 
+statement in a simple exception handler because it’s really easy 
+to pass in a malformed path. This will catch files that don’t exist 
+for example.
